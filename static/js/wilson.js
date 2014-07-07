@@ -111,8 +111,6 @@ var CC = CC || {};
         //     slidershow.find('ul').css({'margin-left':div_left+'px'});
         // });
 
-        // 未處理問題
-        // 1. focus
 
 
         return (function(){
