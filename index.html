@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>cycleCarousel demo</title>
+	<link rel="stylesheet" type="text/css" href="static/css/wilson.css">
+</head>
+<body>
+	<div id="container"></div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="static/js/wilson.js"></script>
+	<script>
+		$('#container').cycleCarousel({
+
+			// your data info
+			data: [{
+				name: 'img1',
+				link: '#',
+				img: 'static/images/01.jpg'
+			},{
+				name: 'img2',
+				link: '#',
+				img: 'static/images/02.jpg'
+			},{
+				name: 'img3',
+				link: '#',
+				img: 'static/images/03.jpg'
+			},{
+				name: 'img4',
+				link: '#',
+				img: 'static/images/04.jpg'
+			},{
+				name: 'img5',
+				link: '#',
+				img: 'static/images/05.jpg'
+			},{
+				name: 'img6',
+				link: '#',
+				img: 'static/images/06.jpg'
+			}],
+
+			// options
+			speed: 2000,
+			animateInterval: 5000,
+			maxHeight: 400,
+			itemNumber: 3
+
+		});
+	</script>
+</body>
+</html>
+</body>
+</html>
