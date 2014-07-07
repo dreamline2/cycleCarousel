@@ -1,0 +1,28 @@
+@import "compass/reset";
+
+body{
+    /*overflow: hidden;*/
+}
+
+#container {
+    width: 10000px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+}
+
+.item {
+    float: left;
+}
+
+.unfocus{
+    opacity: 0.5;
+}
+
+.unfocus:hover {
+   opacity: 0.8;
+}
+
+
