@@ -1,7 +1,7 @@
 @import "compass/reset";
 
 body{
-    /*overflow: hidden;*/
+overflow: hidden;
 }
 
 #container {
@@ -19,6 +19,8 @@ body{
 
 .unfocus{
     opacity: 0.5;
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 0);
 }
 
 .unfocus:hover {
